@@ -2,7 +2,7 @@
 rm(list=ls())
 # Avoid scientific notation such as 1e+05, so that when in Excel it will be exported correctly to DB
 options(scipen=999)
-setwd("~/dev/quant/gameprob")
+setwd("~/git/game.probs")
 source("lib.card.blackjack.R")
 
 rules <- bj.get.rules.structure.standard()
